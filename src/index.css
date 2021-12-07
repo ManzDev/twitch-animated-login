@@ -1,0 +1,26 @@
+@font-face {
+  font-family: Montserrat, sans-serif;
+  font-weight: 300;
+  src:
+    url("fonts/montserrat-300.woff2") format("woff2"),
+    url("fonts/montserrat-300.woff") format("woff");
+}
+
+@font-face {
+  font-family: Montserrat, sans-serif;
+  font-weight: 500;
+  src:
+    url("fonts/montserrat-500.woff2") format("woff2"),
+    url("fonts/montserrat-500.woff") format("woff");
+}
+
+body {
+  background: #448;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 3em;
+}
+
